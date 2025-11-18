@@ -49,3 +49,9 @@
 [submodule "vim-commentary"]
 	path = vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "yazi.nvim"]
+	path = yazi.nvim
+	url = https://github.com/mikavilpas/yazi.nvim.git
+[submodule "bullets.vim"]
+	path = bullets.vim
+	url = https://github.com/bullets-vim/bullets.vim.git
