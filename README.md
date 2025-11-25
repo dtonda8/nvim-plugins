@@ -6,4 +6,15 @@ Setup:
 ```bash
 git clone git@github.com:dtonda8/nvim-config.git $HOME/.config/nvim-plugins
 ```
+Add submodule:
+```bash
+git add submodule https://github.com/random/cool-plugin.nvim.git
+```
+
+Remove submodule:
+```bash
+git rm start/cool-plugin.nvim
+rm -rf .git/modules/start/cool-plugin.nvim
+git config --remove-section submodule.start/cool-plugin.nvim
+```
 
